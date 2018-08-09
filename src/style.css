@@ -1,0 +1,9 @@
+.waschbaer {
+    background-blend-mode: screen;
+    background: gray url('waschbaeren.jpg') no-repeat;
+}
+
+.coral {
+    background-color: coral;
+    color: black;
+}
