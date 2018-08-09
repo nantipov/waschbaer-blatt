@@ -17,7 +17,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'build/'),
-        publicPath: '/',
+        publicPath: (process.env.NODE_ENV==='development'?'/':'./'),
         filename: '[name].js',
         library: ['giftCardPrinterUI', '[name]']
     },
