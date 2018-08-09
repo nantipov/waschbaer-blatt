@@ -50,7 +50,7 @@ export default class App extends Component {
     }
 
     readData() {
-        const url = '/api/events?start_time=' + this.state.chartStartTime + '&end_time=' + this.state.chartEndTime;
+        const url = 'api/events?start_time=' + this.state.chartStartTime + '&end_time=' + this.state.chartEndTime;
         fetch(url)
             .then(resp => resp.json())
             .then((data) => {
@@ -108,7 +108,7 @@ export default class App extends Component {
 
     forceWatering() {
         fetch(
-            "/api/actions", {
+            "api/actions", {
                 method: "POST"
             })
             .then(resp => resp.status)
