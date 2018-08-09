@@ -1,0 +1,14 @@
+build/
+node_modules/
+scm-source.json
+webapp/
+.vscode/
+flow-typed/
+
+/target/
+/.idea/
+/dist/
+*.iml
+
+# Log file
+*.log
