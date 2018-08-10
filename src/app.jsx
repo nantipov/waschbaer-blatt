@@ -157,7 +157,7 @@ export default class App extends Component {
 
                         <Legend verticalAlign="top" height={36}/>
 
-                        <ReferenceLine y={10} label="Watering threshold" stroke="red" strokeDasharray="3 3" xAxisId={0}
+                        <ReferenceLine y={3} label="Watering threshold" stroke="red" strokeDasharray="3 3" xAxisId={0}
                                        yAxisId={1}/>
 
                         <Line name="MoistureSensor-A0" type="monotone" dataKey="MoistureSensor-A0" stroke="#81C784"
